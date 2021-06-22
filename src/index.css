@@ -9,13 +9,13 @@ h1{
 }
 #gameBoard {
     display: flex;
-    width: 1000px;
+    width: 500px;
     flex-wrap: wrap;
     border: 1px solid white;
 }
 .cell{
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     background-color: black;
     box-sizing: border-box;
     color: white;
