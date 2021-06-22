@@ -2,8 +2,8 @@ import { Component } from "react";
 
 class Start extends Component {
 
-    handleClick() {
-        // this.props.startGame();
+    handleClick = () => {
+        this.props.startGame();
         console.log('start!');
     }
     render () {
