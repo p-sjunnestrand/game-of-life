@@ -14,7 +14,7 @@ class Cell extends Component {
     }
     render () {
         return (
-            <div id={this.props.id} className={this.props.className} onClick={this.handleClick} style={this.props.cell === 1 ? {backgroundColor: "#4ddbc1"}:{backgroundColor: "black"}}></div>
+            <div id={this.props.id} className={this.props.className} onClick={this.handleClick}></div>
         )
     }
 }

@@ -9,15 +9,25 @@ h1{
 }
 #gameBoard {
     display: flex;
-    width: 500px;
+    width: 900px;
     flex-wrap: wrap;
     border: 1px solid white;
 }
-.cell{
-    width: 10px;
-    height: 10px;
+.deadCell{
+    width: 15px;
+    height: 15px;
     background-color: black;
     box-sizing: border-box;
-    color: white;
-    /* border: solid 1px lightgray; */
+}
+.deadCell:hover{
+    background-color: white;
+}
+.livingCell{
+    width: 15px;
+    height: 15px;
+    background-color: #4ddbc1;
+    box-sizing: border-box;
+}
+.livingCell:hover{
+    background-color: #1a4d43;
 }
