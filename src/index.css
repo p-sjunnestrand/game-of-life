@@ -1,11 +1,22 @@
 * {
     font-family: monospace;
+    color: white;
 }
 body{
     background-color: black;
 }
-h1{
-    color: white;
+header{
+    text-align: center;
+}
+#gameSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#prefrences{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
 }
 #gameBoard {
     display: flex;
@@ -30,4 +41,34 @@ h1{
 }
 .livingCell:hover{
     background-color: #1a4d43;
+}
+button{
+    background-color: black;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-size: 2rem;
+    margin: 0 0.5em;
+}
+button:hover{
+    background-color: white;
+    color: black
+}
+.stopBtn{
+    background-color: rgb(177, 0, 177);
+}
+#infoSection{
+    display: flex;
+    justify-content: center;
+}
+#infoBox{
+    width: 900px;
+    height: 450px;
+    border: 1px solid white;
+    padding: 0.6em 1em;
+    box-sizing: border-box;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
